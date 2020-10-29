@@ -46,4 +46,7 @@ def save_file(items,path):
         for item in items:
             writer.writerow([item['title'], item['link'], item['usd_price'], item['uah_price'], item['city']])
 
+
+
+
 parse()
